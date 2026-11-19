@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submit Feedback</title>
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+    <h1>Submit Feedback</h1>
+    
+       <nav>
+    <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="profile.html">PROFILE</a></li>
+        <li><a href="course.html">COURSE</a></li>
+        <li><a href="grade.html">GRADE</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+        <li><a href="feedback.html">FEEDBACK</a></li>
+
+    </ul>
+    </nav>
+    </header>
+
+   <main>
+    <div class="feedback-box">
+   <form>
+    
+    <label for="name"> Name:</label>
+      <input type="text" id="name">
+     <br><br>
+    <label for="email"> Email:</label>
+      <input type="email" id="email">
+     <br><br>
+
+     
+
+     <label>How was your experience:</label>
+     <br>
+     <input type="radio" id="good" name="exeperience">
+     <label for="good">Good</label>
+
+     <input type="radio" id="average" name="exeperience">
+     <label for="average">Average</label>
+
+     <input type="radio" id="Bad" name="exeperience">
+     <label for="Bad">Bad</label>
+
+     <br><br>
+
+     <label>What did you learn</label>
+     <br>
+     <input type="checkbox" id="html">
+     <label for="html">HTML</label>
+
+     <input  type="checkbox" id="css">
+     <label for="css">CSS</label>
+
+     <input type="checkbox" id="javascript">
+     <label for="javascript">JavaScript</label>
+     <br><br>
+
+     <label>feedback About:</label>
+     <select>
+        <option>Website Design</option>
+        <option>course content</option>
+        <option>HTML</option>
+        <option>CSS</option>
+        <option>JavaScript</option>
+        <option> overall Experience</option>
+     </select>
+     <br><br>
+     <label for="suggestions">Your Suggestions:</label><br>
+
+     <textarea id="suggestions" rows="2" cols="30"></textarea>
+     <br><br>
+
+     <button type="submit">Submit feedback</button>
+    
+   </form>
+   </div>
+
+   </main>
+   <footer>
+    <p>@ 2026 student profile & course profile</p>
+</footer>
+</body>
+</html>
